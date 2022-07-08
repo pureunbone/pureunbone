@@ -1,142 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-<title>pureun bone body shape management</title>
-<meta charset="utf-8">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L7E8M5THYG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-L7E8M5THYG');
-</script>
-<style>
-body{margin:0;}
-a{color:black; text-decoration: none;}
-h1{font-size:45px; text-align: center; border-bottom: 1px solid gray; margin:0; padding:20px;}
-.saw{color:gray;}
-.saw1{color: black;}
-ol{border-right:1px solid gray; width:90px; margin:0; padding:30px;}
-.saw{color:gray;}
-.saw1{color: black;}
-#active{color: blue;}
-#grid{display: grid; grid-template-columns: 150px 1fr;}
-#grid ol{padding-right: 30px;}
-#grid #article{padding-left: 30px; padding-top: 30px;}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>pureun bone body shape management</title>
+  <link rel="stylesheet" href="style.CSS">
 </head>
-<body>
 <h1><a href="index.html" class="saw1">Pureun Bone</a></h1>
-<div id="grid">
-<ol>
-  <li><a href="운동상식.html" class="saw">운동상식</a></li>
-  <li><a href="운동방법.html" class="saw">운동방법</a></li>
-  <li><a href="운동기록.html" class="saw">운동기록</a></li>
-  <li><a href="운동처방.html" class="saw" id="active">운동처방</a></li>
-  <li><a href="체지방측정.html" class="saw">체지방측정</a></li>
-  <li><a href="체형분석.html" class="saw">체형분석</a></li>
-  <li><a href="1RM.html" class="saw">1RM</a></li>
-  </ol>
+<body>
+  <div id="grid">
+   <ol>
+     <li><a href="운동상식.html" class="saw">운동상식</a></li>
+     <li><a href="운동방법.html" class="saw">운동방법</a></li>
+     <li><a href="운동기록.html" class="saw">운동기록</a></li>
+     <li><a href="운동처방.html" class="saw">운동처방</a></li>
+     <li><a href="체지방측정.html" class="saw">체지방측정</a></li>
+     <li><a href="체형분석.html" class="saw">체형분석</a></li>
+     <li><a href="1RM.html" class="saw">1RM</a></li>
+   </ol>
   <div id="article">
-<table border="1" style="width: 100%">
-  <tr>
-    <th colspan="6">운동처방</th>
-  </tr>
-  <tr>
-    <td colspan="6" bgcolor="gray">기본정보</td>
-  </tr>
-  <tr>
-    <td>이름</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>연령</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>성별</td>
-    <td style="width: 20%"><input type="check"></td>
-  </tr>
-  <tr>
-    <td>신장</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>체중</td>
-    <td style="width: 20%"><input type="check"></td>
-  </tr>
-  <tr>
-    <td colspan="6" bgcolor="gray">운동 목표 및 체력수준</td>
-  </tr>
-  <tr>
-    <td>강도(%)</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>시간(min)</td>
-    <td style="width: 20%"><input type="check"></td>
-  </tr>
-  <tr>
-    <td>VO2 MAX</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>목표심박수(THR)</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>운동 시 kcal 사용</td>
-    <td style="width: 20%"><input type="check"></td>
-  </tr>
-  <tr>
-    <td colspan="6" bgcolor="gray">심박수</td>
-  </tr>
-  <tr>
-    <td>최대심박수(APMHR)</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>여유심박수(HRR)</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>안정시심박수(RHR)</td>
-    <td style="width: 20%"><input type="check"></td>
-  </tr>
-  <tr>
-    <td colspan="6" bgcolor="gray">1마일 걷기 검사(약 1.6km)</td>
-  </tr>
-  <tr>
-    <td>시간(min)</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>검사 후 심박수(BPM)</td>
-    <td style="width: 20%"><input type="check"></td>
-    <td>RHR</td>
-    <td style="width: 20%"><input type="check"></td>
-  </tr>
-</table>
-</div>
-</div>
-<h3><a href="pureunbone.html">뒤로가기</a></h3>
-
-<!-- 라이브리 시티 설치 코드 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC81NjcyNy8zMzE5MQ==">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
-</div>
-<!-- 시티 설치 코드 끝 -->
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/62c129d37b967b117997bc72/1g718mp51';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
+  <table>
+    <tr>
+      <th colspan="100%">운동처방</th>
+    </tr>
+    <tr>
+      <td colspan="100%">기본정보</td>
+    </tr>
+    <tr>
+      <td>이름</td>
+      <td><input class="text_test" placeholder="홍길동"></td>
+      <td>연령</td>
+      <td><input class="text_test" placeholder="25">
+      <td>성별</td>
+      <td><input class="text_test" placeholder="남/여"></td>
+      <td>신장</td>
+      <td><input class="text_test" placeholder="170"></td>
+      <td>체중</td>
+      <td><input class="text_test" placeholder="65"></td>
+    </tr>
+    <tr>
+      <td>강도%</td>
+      <td><input class="text_test" placeholder="50%"></td>
+      <td>시간(min)</td>
+      <td><input class="text_test" placeholder="100"></td>
+      <td>VO2 MAX</td>
+      <td><input class="text_test" placeholder="35"></td>
+      <td>목표심박수(THR)</td>
+      <td><input class="text_test" placeholder="120"></td>
+      <td>사용 kcal</td>
+      <td><input class="text_test" placeholder="300"></td>
+    </tr>
+    <tr>
+      <td>최대심박수(APMAHR)</td>
+      <td><input class="text_test" placeholder="220"></td>
+      <td>여유심박수(HRR)</td>
+      <td><input class="text_test" placeholder="100"></td>
+      <td>안정시심박수(RHR)</td>
+      <td><input class="text_test" placeholder="80"></td>
+    </tr>
+    <tr>
+      <td colspan="100%">1마일 걷기검사(약 1.6km)</td>
+    </tr>
+    <tr>
+      <td>시간(min)</td>
+      <td><input class="text_test" placeholder="20"></td>
+      <td>검사 후 심박수(BPM)</td>
+      <td><input class="text_test" placeholder="100"></td>
+    </tr>
+  </table>
+  </div>
+  </div>
 </body>
 </html>

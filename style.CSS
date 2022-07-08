@@ -1,0 +1,13 @@
+body{margin: 0;}
+a{color: black; text-decoration: none; font-weight: bold;}
+h1{font-size: 45px; text-align: center; border-bottom: 1px solid gray; margin: 0; padding: 20px;}
+ol{border-right: 1px solid gray; width: 90px; margin: 0; padding: 30px;}
+.saw{color: black;}
+.saw1{color: black;}
+.text_test{width: 100px;}
+#grid{display: grid; grid-template-columns: 150px 1fr;}
+#grid ol{padding-right: 30px;}
+#grid #article{padding-left: 30px; padding-top: 30px;}
+@media(max-width: 700px){#grid{display:block;}ol{border-right: none;}h1{border-bottom: none;}}
+table{border-collapse: collapse; text-align: center;}
+tr {border-top: 1px solid black; border-bottom: 1px, solid, black;}

@@ -1,159 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-<title>pureun bone body shape management</title>
-<meta charset="utf-8">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L7E8M5THYG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-L7E8M5THYG');
-</script>
-<style>
-body{margin:0;}
-a{color:black; text-decoration: none;}
-h1{font-size:45px; text-align: center; border-bottom: 1px solid gray; margin:0; padding:20px;}
-.saw{color:gray;}
-.saw1{color: black;}
-ol{border-right:1px solid gray; width:90px; margin:0; padding:30px;}
-.saw{color:gray;}
-.saw1{color: black;}
-#active{color: blue;}
-#grid{display: grid; grid-template-columns: 150px 1fr;}
-#grid ol{padding-right: 30px;}
-#grid #article{padding-left: 30px; padding-top: 30px;}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>pureun bone body shape management</title>
+  <link rel="stylesheet" href="style.CSS">
 </head>
-<body>
 <h1><a href="index.html" class="saw1">Pureun Bone</a></h1>
-<div id="grid">
-<ol>
-  <li><a href="운동상식.html" class="saw">운동상식</a></li>
-  <li><a href="운동방법.html" class="saw">운동방법</a></li>
-  <li><a href="운동기록.html" class="saw">운동기록</a></li>
-  <li><a href="운동처방.html" class="saw">운동처방</a></li>
-  <li><a href="체지방측정.html" class="saw">체지방측정</a></li>
-  <li><a href="체형분석.html" class="saw">체형분석</a></li>
-  <li><a href="1RM.html" class="saw" id="active">1RM</a></li>
-  </ol>
+<body>
+  <div id="grid">
+   <ol>
+     <li><a href="운동상식.html" class="saw">운동상식</a></li>
+     <li><a href="운동방법.html" class="saw">운동방법</a></li>
+     <li><a href="운동기록.html" class="saw">운동기록</a></li>
+     <li><a href="운동처방.html" class="saw">운동처방</a></li>
+     <li><a href="체지방측정.html" class="saw">체지방측정</a></li>
+     <li><a href="체형분석.html" class="saw">체형분석</a></li>
+     <li><a href="1RM.html" class="saw">1RM</a></li>
+   </ol>
   <div id="article">
-<table border="1" style="width: 100%">
-  <tr>
-    <th colspan="4">1RM 검사</th>
-  </tr>
-  <tr>
-    <td bgcolor="gray">1RM 검사 무게</td>
-    <td style="width: 20%"></td>
-    <td bgcolor="gray">1RM 검사 횟수</td>
-    <td style="width: 20%"></td>
-  </tr>
-</table>
-<table border="1" style="width: 100%">
-  <tr>
-    <th colspan="6">근파워 증가(힘)</th>
-  </tr>
-  <tr bgcolor="gray">
-    <td>1RM</td>
-    <td>2RM</td>
-    <td>3RM</td>
-    <td>4RM</td>
-    <td>5RM</td>
-    <td>6RM</td>
-  </tr>
-  <tr>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-  </tr>
-</table>
-<table border="1" style="width: 100%">
-  <tr>
-    <th colspan="9">근비대 증가(크기)</th>
-  </tr>
-  <tr bgcolor="gray">
-    <td>7RM</td>
-    <td>8RM</td>
-    <td>9RM</td>
-    <td>10RM</td>
-    <td>11RM</td>
-    <td>12RM</td>
-    <td>13RM</td>
-    <td>14RM</td>
-    <td>15RM</td>
-  </tr>
-  <tr>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-  </tr>
-</table>
-<table border="1" style="width: 100%">
-  <tr>
-    <th colspan="5">근지구력 증가(균형,라인)</th>
-  </tr>
-  <tr bgcolor="gray">
-    <td>16RM</td>
-    <td>17RM</td>
-    <td>18RM</td>
-    <td>19RM</td>
-    <td>20RM</td>
-  </tr>
-  <tr>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-    <td><input type="check"></td>
-  </tr>
-</table>
-</div>
-</div>
-<h3><a href="pureunbone.html">뒤로가기</a></h3>
-
-<!-- 라이브리 시티 설치 코드 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC81NjcyNy8zMzE5MQ==">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
-</div>
-<!-- 시티 설치 코드 끝 -->
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/62c129d37b967b117997bc72/1g718mp51';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
+  <table>
+    <tr>
+      <th colspan="100%">1RM</th>
+    </tr>
+    <tr>
+      <td>검사 무게(kg)</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>검사 횟수</td>
+      <td><input class="text_test" placeholder="20" ></td>
+    </tr>
+    <tr>
+      <th colspan="100%">근파워 증가(힘)</th>
+    </tr>
+    <tr>
+      <td>1RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>2RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>3RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>4RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>5RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>6RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+    </tr>
+    <tr>
+      <th colspan="100%">근비대 증가(크기)</th>
+    </tr>
+    <tr>
+      <td>7RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>8RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>9RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>10RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>11RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      </tr>
+      <tr>
+      <td>12RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>13RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>14RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>15RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+    </tr>
+    <tr>
+      <th colspan="100%">근지구력 증가(균형, 라인)</th>
+    </tr>
+    <tr>
+      <td>16RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>17RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>18RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+      <td>19RM</td>
+      <td><input class="text_test" placeholder="20" ></td>
+      <td>20RM</td>
+      <td><input class="text_test" placeholder="50" ></td>
+    </tr>
+  </table>
+  </div>
+  </div>
 </body>
 </html>
